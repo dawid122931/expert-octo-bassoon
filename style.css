@@ -8,12 +8,14 @@ body{
 
 }
 #pasek li{
-    font-size: 25px;
+    font-size: 28.999px;
     float: left ;
-    margin-left: auto;
-    margin-right: 50px;
+    margin-left: 29.3px;
+    margin-right: 29.3px;
     font-weight: bold;
-
+margin-bottom: 21.49003px;
+margin-top: 15px;
+font-family: 'Anton', sans-serif;
 }
 #pasek a:hover{
     color: black;
@@ -36,4 +38,14 @@ li a {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+  }
+  #wot{
+      width: 450px;
+      height: 400px;
+      float: left;
+  }
+  #wot1{
+    width: 450px;
+    height: 400px;
+    float: right; 
   }
