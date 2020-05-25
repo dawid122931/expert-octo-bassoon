@@ -12,7 +12,9 @@
     <body>
        
         
-        <script src="" async defer></script>
+        <script src="" async defer>
+          
+        </script>
    
    <div id="pasek">
         <ul>
@@ -28,6 +30,27 @@
         <img src="pad.jpg">
 
 
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+       Mój własny projekt</button>
+        
+        <p id="demo"></p>
+        
+
+        <div id="zegarek" style="FONT-WEIGHT:bold;SIZE:16PX;COLOR:black; MARGIN-RIGHT: 4PX;"></div>
+        <script>
+          function zegar() {
+          var data = new Date();
+          var godzina = data.getHours();
+          var min = data.getMinutes();
+          var sek = data.getSeconds();
+           var terazjest = ""+godzina+
+          ((min<10)?":0":":")+min+
+          ((sek<10)?":0":":")+sek;
+          document.getElementById("zegarek").innerHTML = terazjest;
+          setTimeout("zegar()", 1000); }
+          zegar();
+          </script>
 
 </body>
 </html>

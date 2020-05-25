@@ -1,6 +1,6 @@
-body{
-    background :grey;
-    
+body
+{
+    background-color: grey;
 }
 #pasek{
     float: right;
@@ -10,7 +10,7 @@ body{
 #pasek li{
     font-size: 28.999px;
     float: left ;
-    margin-left: 29.3px;
+    margin-left: 29px;
     margin-right: 29.3px;
     font-weight: bold;
 margin-bottom: 21.49003px;
@@ -48,4 +48,19 @@ li a {
     width: 450px;
     height: 400px;
     float: right; 
+  }
+
+  
+  #rama{
+color: white;
+border: 1px dotted grey;
+width: 200px;   
+height: 250px;
+margin-left: 0%;
+opacity:0.8;
+background-color: black;
+border-radius: 5px;
+text-align: center;
+font-size: 6px;
+
   }
